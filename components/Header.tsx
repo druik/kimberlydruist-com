@@ -7,10 +7,10 @@ const navItems = [
 
 export function Header() {
   return (
-    <header className="mx-auto grid w-full max-w-5xl gap-10 px-6 py-20 md:grid-cols-[minmax(0,1fr)_minmax(220px,300px)] md:items-end md:px-8 md:py-28">
-      <div>
+    <header className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-20 md:flex-row md:items-end md:justify-between md:px-8 md:py-28">
+      <div className="order-2 md:order-1">
         <h1 className="font-serif text-5xl font-semibold leading-tight text-accent md:text-7xl">
-          Kimberly Druist
+          Kimberly Druist, RN, MSN
         </h1>
         <p className="mt-5 max-w-copy text-xl md:text-2xl">
           I&apos;m a nurse in health tech, focused on what happens after go-live,
@@ -29,9 +29,9 @@ export function Header() {
         </nav>
       </div>
       <img
-        src="/photo-placeholder.jpg"
+        src="/photo.png"
         alt="Portrait of Kimberly Druist"
-        className="aspect-[3/4] w-full max-w-[300px] justify-self-start rounded-lg object-cover md:justify-self-end"
+        className="order-1 w-full max-w-[300px] self-start md:order-2 md:max-w-[320px] md:self-end"
       />
     </header>
   );
