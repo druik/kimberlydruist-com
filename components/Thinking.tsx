@@ -1,6 +1,6 @@
 export function Thinking() {
   return (
-    <section id="thinking" className="mx-auto w-full max-w-copy px-6 py-24 md:px-8">
+    <section id="thinking" className="mx-auto w-full max-w-copy px-6 py-12 md:px-8">
       <h2 className="font-serif text-3xl font-semibold text-accent md:text-4xl">
         Thinking
       </h2>

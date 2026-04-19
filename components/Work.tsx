@@ -2,7 +2,7 @@ import { CaseStudy } from "./CaseStudy";
 
 export function Work() {
   return (
-    <section id="work" className="mx-auto w-full max-w-copy px-6 py-24 md:px-8">
+    <section id="work" className="mx-auto w-full max-w-copy px-6 py-12 md:px-8">
       <h2 className="font-serif text-3xl font-semibold text-accent md:text-4xl">
         Work
       </h2>
@@ -10,7 +10,6 @@ export function Work() {
         <CaseStudy
           title="Partnership Under Pressure"
           summary="A regional health agency had run an evidence-based home visiting program for first-time mothers for years. During a public health emergency, the agency's nursing workforce was pulled into crisis response while the families enrolled in the program still needed care. The partnership held. Services continued. The workforce adapted to telehealth faster than anyone had a playbook for. What made it work wasn't a single intervention. It was holding three conversations at once: keeping frontline nurses connected to the reason they took the job, working with agency leadership on what the partnership could realistically sustain, and keeping the national organization from escalating a moment that needed de-escalation. The program came back stronger on the other side."
-          context="San Diego, abstracted"
         />
         <CaseStudy
           title="Clinical Quality Measure Pipeline"
