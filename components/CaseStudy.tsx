@@ -21,7 +21,7 @@ export function CaseStudy({
       {context ? (
         <p className="mt-2 text-sm italic text-foreground/70">{context}</p>
       ) : null}
-      <div className="mt-4 space-y-4">
+      <div className="prose-flow mt-4">
         {summaryParagraphs.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}

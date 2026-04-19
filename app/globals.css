@@ -71,3 +71,7 @@ h3,
 p {
   margin: 0;
 }
+
+.prose-flow > p + p {
+  margin-top: 1.25em;
+}

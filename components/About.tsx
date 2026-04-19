@@ -4,7 +4,7 @@ export function About() {
       <h2 className="font-serif text-3xl font-semibold text-accent md:text-4xl">
         About
       </h2>
-      <div className="mt-8 flex flex-col gap-6">
+      <div className="prose-flow mt-8">
         <p>
           I work on healthcare data systems, clinical workflows, and quality
           measurement at national scale. My focus is systems that hold up in
