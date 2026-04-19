@@ -13,7 +13,8 @@ export function Header() {
           Kimberly Druist
         </h1>
         <p className="mt-5 max-w-copy text-xl md:text-2xl">
-          TK: positioning statement
+          I&apos;m a nurse in health tech, focused on what happens after go-live,
+          not the launch party.
         </p>
         <nav aria-label="Primary" className="mt-10">
           <ul className="flex flex-wrap gap-x-6 gap-y-3">
@@ -29,7 +30,7 @@ export function Header() {
       </div>
       <img
         src="/photo-placeholder.jpg"
-        alt="TK: photo alt text"
+        alt="Portrait of Kimberly Druist"
         className="aspect-[3/4] w-full max-w-[300px] justify-self-start rounded-lg object-cover md:justify-self-end"
       />
     </header>

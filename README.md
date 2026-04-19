@@ -20,11 +20,11 @@ Deploys automatically via Vercel on push to `main`.
 
 ## Launch Checklist
 
-- TK: About copy
-- TK: positioning
-- TK: three case studies
-- TK: essay
-- TK: photo
-- TK: meta description
-- TK: OG image
-- TK: favicon
+- About copy
+- Positioning
+- Three case studies
+- Essay
+- Photo
+- Meta description
+- OG image
+- Favicon

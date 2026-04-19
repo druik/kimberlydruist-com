@@ -1,6 +1,6 @@
 type CaseStudyProps = {
   title: string;
-  summary: string;
+  summary: string | string[];
   githubUrl?: string;
   context?: string;
 };
@@ -11,6 +11,8 @@ export function CaseStudy({
   githubUrl,
   context,
 }: CaseStudyProps) {
+  const summaryParagraphs = Array.isArray(summary) ? summary : [summary];
+
   return (
     <article className="border-t border-accent/20 py-8">
       <h3 className="font-serif text-2xl font-semibold text-foreground">
@@ -19,7 +21,11 @@ export function CaseStudy({
       {context ? (
         <p className="mt-2 text-sm italic text-foreground/70">{context}</p>
       ) : null}
-      <p className="mt-4">{summary}</p>
+      <div className="mt-4 space-y-4">
+        {summaryParagraphs.map((paragraph) => (
+          <p key={paragraph}>{paragraph}</p>
+        ))}
+      </div>
       {githubUrl ? (
         <a
           className="mt-4 inline-flex items-center gap-2 font-semibold text-accent"

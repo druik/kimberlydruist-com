@@ -17,7 +17,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://kimberlydruist.com"),
   title: "Kimberly Druist — Healthcare Technology and Clinical Informatics",
-  description: "TK: meta description",
+  description:
+    "Healthcare technology and clinical informatics work by Kimberly Druist, RN, MSN.",
   openGraph: {
     images: ["/og-image.png"],
   },
