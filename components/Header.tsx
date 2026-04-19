@@ -7,9 +7,9 @@ const navItems = [
 
 export function Header() {
   return (
-    <header className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-16 md:flex-row md:items-end md:justify-between md:px-8 md:pb-12 md:pt-28">
+    <header className="mx-auto flex w-full max-w-[920px] flex-col gap-10 px-6 py-16 md:flex-row md:items-center md:gap-12 md:px-8 md:pb-12 md:pt-28">
       <div className="order-2 min-w-0 flex-1 md:order-1">
-        <h1 className="font-serif text-5xl font-semibold leading-tight text-accent md:text-7xl">
+        <h1 className="font-serif text-4xl font-semibold leading-tight text-accent md:text-5xl">
           Kimberly Druist, RN, MSN
         </h1>
         <p className="mt-5 max-w-copy text-xl md:text-2xl">
