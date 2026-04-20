@@ -21,7 +21,8 @@ export function Work() {
           summary={[
             "Most task systems assume you can do more than you actually can. Cortex was built on the opposite assumption. It's an ambient display paired with a triage app, Prefrontal.",
             "Prefrontal is where you review the backlog, approve what belongs on today's display, and defer the rest. Cortex is read-only: it shows the current time, the next calendar event, and the tasks you approved for today. Nothing else.",
-            "No overdue counts, no notifications, no productivity shaming. The split between the two apps is the design: one surface for decisions, one surface for attention. Built for people whose cognitive capacity varies day to day, which is more of us than most software acknowledges.",
+            "No overdue counts, no notifications, no productivity shaming. The split between the two apps is the design: one surface for decisions, one surface for attention.",
+            "The design thinking applies to healthcare broadly. Clinicians working through chronic illness, caregiving, and high-demand jobs. Patients navigating portals, managing conditions, scheduling care around real life. Most users are not operating at full capacity most of the time. Software that assumes otherwise is bad software.",
           ]}
           githubUrl="https://github.com/druik/cortex-display"
         />
