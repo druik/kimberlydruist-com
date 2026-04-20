@@ -16,7 +16,10 @@ export function About() {
           implementation and data systems. That progression is the reason my
           work looks the way it does. I&apos;ve seen how documentation actually
           happens, how workflows break under pressure, and what gets lost when
-          systems are designed without that context.
+          systems are designed without that context. That work has included
+          requirements gathering, workflow design, nurse training, go-live
+          support, sustainment, and advisory relationships with agency and
+          health system leaders.
         </p>
       </div>
     </section>
