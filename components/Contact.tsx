@@ -29,6 +29,12 @@ export function Contact() {
             <a href={link.href}>{link.text}</a>
           </li>
         ))}
+        <li>
+          <span className="font-semibold">Resume: </span>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            download PDF
+          </a>
+        </li>
       </ul>
     </section>
   );

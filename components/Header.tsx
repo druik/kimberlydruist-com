@@ -3,6 +3,7 @@ const navItems = [
   { href: "#work", label: "Work" },
   { href: "#thinking", label: "Thinking" },
   { href: "#contact", label: "Contact" },
+  { href: "/resume.pdf", label: "Resume", external: true },
 ];
 
 export function Header() {
@@ -20,7 +21,12 @@ export function Header() {
           <ul className="flex flex-wrap gap-x-6 gap-y-3">
             {navItems.map((item) => (
               <li key={item.href}>
-                <a className="font-semibold text-accent" href={item.href}>
+                <a
+                  className="font-semibold text-accent"
+                  href={item.href}
+                  target={item.external ? "_blank" : undefined}
+                  rel={item.external ? "noopener noreferrer" : undefined}
+                >
                   {item.label}
                 </a>
               </li>
